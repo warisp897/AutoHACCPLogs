@@ -1,0 +1,1 @@
+This assumes the logs are implemented using OneDrive. If they are, all that is needed is one folder to hold the complete logs, and another to hold the empty logs. The program will save the complete logs as a pdf, and replace it with a clear log after.
