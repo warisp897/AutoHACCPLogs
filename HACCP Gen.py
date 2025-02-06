@@ -26,13 +26,12 @@ excel_path = "C:/Perry Files/HACCP Logs/"
 
 #Path to the edited logs for the day
 #edited_logs_path = "C:\\Users\warisp897\\OneDrive - Virginia Tech\\HACCP LOGS\\"
-edited_logs_path = "C:\\Users\\warisp897\\OneDrive - Virginia Tech\\Filled HACCP Logs (FILL IN HERE)\\"
+edited_logs_path = "C:\\Users\\" + os.login + "\\OneDrive - Virginia Tech\\Filled HACCP Logs (FILL IN HERE)\\"
 
 #Path of the clear logs that will be used for replacing
-clear_logs_path = "C:\\Users\\warisp897\\OneDrive - Virginia Tech\\Clear HACCP Logs (DO NOT EDIT)\\"
+clear_logs_path = "C:\\Users\\" + os.login + "\\OneDrive - Virginia Tech\\Clear HACCP Logs (DO NOT EDIT)\\"
 
-#MUST USE \\ IN PDF_PATH!
-pdf_path = "C:\\Users\\warisp897\\OneDrive - Virginia Tech\\HACCP PDFs\\"
+pdf_path = "C:\\Users\\" + os.login + "\\OneDrive - Virginia Tech\\HACCP PDFs\\"
 
 #Open excel in python
 excel = client.Dispatch("Excel.Application")
