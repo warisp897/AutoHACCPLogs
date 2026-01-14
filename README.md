@@ -45,4 +45,4 @@ The script targets specific OneDrive paths synced to the local machine. Ensure t
 
 ## Script Logic Detail
 
-The script utilizes the `win32com` client to interface directly with the Excel application. It
+The script utilizes the `win32com` client to interface directly with the Excel application. It iterates through the directory, opens each workbook, exports the first worksheet using `ExportAsFixedFormat`, and closes the workbook without saving changes to the original. Finally, `shutil.copyfile` is used to restore the templates.
