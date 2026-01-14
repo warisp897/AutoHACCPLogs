@@ -1,5 +1,11 @@
 # HACCP Log Automation & PDF Generator
 
+![Python](https://img.shields.io/badge/Language-Python%203.x-3776AB)
+![Windows](https://img.shields.io/badge/Platform-Windows-0078D6)
+![Excel](https://img.shields.io/badge/Integration-MS%20Excel-217346)
+![SharePoint](https://img.shields.io/badge/Cloud-SharePoint%20%2F%20OneDrive-0078D4)
+![Status](https://img.shields.io/badge/Status-Deployed-success)
+
 This Python script automates the daily processing of Hazard Analysis and Critical Control Point (HACCP) logs. It converts completed Excel logs into dated PDFs for compliance storage and resets the active logs for the next day's use.
 
 ## Overview
