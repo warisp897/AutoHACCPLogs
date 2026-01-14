@@ -1,7 +1,3 @@
-Here is the README content formatted in Markdown. You can copy the text below and save it as README.md.
-
-Markdown
-
 # HACCP Log Automation & PDF Generator
 
 This Python script automates the daily processing of Hazard Analysis and Critical Control Point (HACCP) logs. It converts completed Excel logs into dated PDFs for compliance storage and resets the active logs for the next day's use.
