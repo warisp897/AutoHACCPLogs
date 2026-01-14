@@ -1,4 +1,4 @@
-# HACCP Log Automation & PDF Generator
+# HACCP Log Automation and PDF Generator
 
 ![Python](https://img.shields.io/badge/Language-Python%203.x-3776AB)
 ![Windows](https://img.shields.io/badge/Platform-Windows-0078D6)
